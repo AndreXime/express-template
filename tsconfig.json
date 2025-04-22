@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "NodeNext",
+		"target": "ES2024",
+		"moduleResolution": "nodenext",
+		"strict": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"useUnknownInCatchVariables": true,
+		"forceConsistentCasingInFileNames": true,
+		"outDir": "dist",
+		"rootDir": "src",
+		"types": ["node", "jest"]
+	},
+	"include": ["tests", "src", "prisma/seed.ts"],
+	"exclude": ["node_modules", "tests", "prisma/seed.ts"]
+}
