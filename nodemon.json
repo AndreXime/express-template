@@ -4,5 +4,5 @@
 	"delay": "5000",
 	"quiet": true,
 	"verbose": true,
-	"exec": "echo ================================================ && echo Iniciando servidor && node --no-warnings --loader ts-node/esm --require dotenv/config src/server.ts"
+	"exec": "echo ================================================ && echo Iniciando servidor && npx tsx src/server.ts"
 }

@@ -3,7 +3,10 @@ import cookieParser from 'cookie-parser';
 import routes from './routes/index.routes.js';
 import { middlewareLogger } from './middlewares/index.js';
 import cors from 'cors';
+import dotenv from 'dotenv';
 import './lib/checkEnv.js';
+
+dotenv.config();
 
 const app = express();
 
